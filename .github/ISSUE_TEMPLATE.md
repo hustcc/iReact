@@ -1,6 +1,6 @@
 For inclusion, Projection information below:
 
-Star Count: `xx`, Frok Count: `xx`
+Star Count: `xx`, Fork Count: `xx`
 
 ```js
 {
