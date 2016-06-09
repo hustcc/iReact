@@ -1,5 +1,5 @@
 import React from 'react';
-import fuzzysearch from 'fuzzysearch';
+// import fuzzysearch from 'fuzzysearch';
 import Tags from './tags.jsx';
 
 const Result = React.createClass({
@@ -15,11 +15,15 @@ const Result = React.createClass({
   },
   canSearch: function(keyword) {
     keyword = keyword.toLowerCase();
-
-    return fuzzysearch(keyword, this.props.project.name.toLowerCase()) ||
-            fuzzysearch(keyword, this.props.project.description.toLowerCase()) ||
-            fuzzysearch(keyword, this.props.project.tagtext) || 
-            fuzzysearch(keyword, this.props.project.author);
+    return this.props.project.name.toLowerCase().indexOf(keyword) > -1 || 
+            this.props.project.description.toLowerCase().indexOf(keyword) > -1 ||
+            this.props.project.tagtext.indexOf(keyword) > -1 ||
+            this.props.project.author.indexOf(keyword) > -1;
+    // do not use fuzzysearch       
+    // return fuzzysearch(keyword, this.props.project.name.toLowerCase()) ||
+    //         fuzzysearch(keyword, this.props.project.description.toLowerCase()) ||
+    //         fuzzysearch(keyword, this.props.project.tagtext) || 
+    //         fuzzysearch(keyword, this.props.project.author);
   },
   render: function() {
     let class_name = "result-show";
