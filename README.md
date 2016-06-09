@@ -5,7 +5,7 @@
 [![Build Status](https://travis-ci.org/hustcc/iReact.svg?branch=master)](https://travis-ci.org/hustcc/iReact)
 
 [iReact.cn](http://iReact.cn/) helps you discover the most fantastic, powerful React `Components` and `Libraries`,
-and makes it easy for you to pick one that’ll work for you.
+and makes it easy for you to pick one that’ll work for you. 
 
 
 ## Rules
@@ -39,3 +39,5 @@ You should fill all the information of your project.
 Please note that iReact.cn is a curated site and that we reserve the right to refuse any listing for any reason.
 
 The [iReact.cn](http://iReact.cn) code/website is released under a MIT License.
+
+This project is rewrited from [microjs.com](https://github.com/madrobby/microjs.com) with `react`.
