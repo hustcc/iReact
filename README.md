@@ -7,7 +7,7 @@
 [iReact.cn](http://iReact.cn/) helps you discover the most fantastic, powerful React `Components` and `Libraries`,
 and makes it easy for you to pick one that’ll work for you. 
 
-![res/img/Screen-Capture.png](res/img/Screen-Capture.png)
+![res/img/Screen-Capture.png](https://raw.githubusercontent.com/hustcc/iReact/master/res/img/Screen-Capture.png)
 
 ## Rules
 
