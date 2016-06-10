@@ -9,7 +9,18 @@ window.iReactProjects =
       'echarts',
       'baidu'
     ],
-    'description': 'Fast, flexible, and simple data tables in React'
+    'description': 'baidu Echarts(v3.0) components for React wrapper.'
+  },
+  {
+    'name': 'color-picker',
+    'repo': 'https://github.com/react-component/color-picker',
+    'author': 'react-component',
+    'tags': [
+      'react',
+      'color',
+      'picker'
+    ],
+    'description': 'React ColorPicker'
   },
   {
     'name': 'reactable',
