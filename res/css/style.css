@@ -412,6 +412,7 @@ pre {
 	font-size: 25px;
 	width: 650px;
 	position: relative;
+	font-family: 'Maiden Orange', arial, sans-serif;
 }
 #ineed>span {
 	display: inline-block;
@@ -423,6 +424,7 @@ pre {
 	color: #fff;
 	padding: 3px;
 	width: 385px;
+	font-family: 'Maiden Orange', arial, sans-serif;
 }
 #ineed_select {
 	position: absolute;
