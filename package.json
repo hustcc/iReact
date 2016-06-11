@@ -6,10 +6,13 @@
   "scripts": {
     "clean": "rimraf res/js/dist",
     "lint": "eslint data.js && eslint res/js/src/",
-    "test_data_format": "node tests/test_data_format.js",
+    "test_data_format": "npm run builddata && tape tests/test_data_format.js",
+
     "test": "npm run lint && npm run test_data_format",
+
     "website": "webpack --config webpack.config.js",
-    "build": "npm run clean && npm run test && npm run website",
+    "builddata": "gulp build_data",
+    "build": "npm run clean && npm run website && npm run builddata && npm run test",
 
     "prepublish": "npm run build"
   },
@@ -62,6 +65,11 @@
     "style-loader": "~0.12.3",
     "file-loader": "~0.8.4",
     "rimraf": "^2.5.0",
+    "tape": "^4.5.0",
+    "gulp": "^3.9.0",
+    "gulp-header": "^1.7.1",
+    "gulp-wrap": "^0.11.0",
+    "gulp-uglify": "*",
     
     "babel-plugin-transform-es3-property-literals": "*",
     "babel-plugin-transform-es3-member-expression-literals": "*"

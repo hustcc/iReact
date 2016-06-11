@@ -2,7 +2,6 @@ var webpack = require('webpack');
 
 module.exports = {
   entry: {
-    'data': './data.js', 
     'bundle': './res/js/src/index.jsx'
   },
   output: {

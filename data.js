@@ -1,4 +1,4 @@
-window.iReactProjects = 
+var iReactProjects = 
 [
   {
     'name': 'echarts-for-react',
@@ -721,16 +721,6 @@ window.iReactProjects =
       'component'
     ],
     'description': 'A message component for reactjs'
-  },
-  {
-    'name': 'react-proxy-loader',
-    'repo': 'https://github.com/webpack/react-proxy-loader',
-    'author': 'webpack',
-    'tags': [
-      'react',
-      'component'
-    ],
-    'description': 'Wraps a react component in a proxy component to enable Code Splitting.'
   },
   {
     'name': 'react-controlfacades',
@@ -1511,5 +1501,40 @@ window.iReactProjects =
       'component'
     ],
     'description': 'Opinionated Command Line Tool for Scaffolding out Nested React Components Into Files'
+  },
+  {
+    'name': 'react-sortable-hoc',
+    'repo': 'https://github.com/clauderic/react-sortable-hoc',
+    'author': 'clauderic',
+    'tags': [
+      'react',
+      'component',
+      'sortable',
+      'hoc'
+    ],
+    'description': 'A set of higher-order components to turn any list into an animated, touch-friendly, sortable list.'
+  },
+  {
+    'name': 'react-d3-library',
+    'repo': 'https://github.com/react-d3-library/react-d3-library',
+    'author': 'react-d3-library',
+    'tags': [
+      'react',
+      'component',
+      'd3',
+      'chart'
+    ],
+    'description': 'Open source library for using D3 in React.'
+  },
+  {
+    'name': 'react-aim',
+    'repo': 'https://github.com/gabrielbull/react-aim',
+    'author': 'gabrielbull',
+    'tags': [
+      'react',
+      'events',
+      'mouse'
+    ],
+    'description': 'Open source library for using D3 in React.'
   }
 ];
