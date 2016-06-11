@@ -1,4 +1,4 @@
-#iReact
+# iReact
 
 > Fantastic React Components and Libraries!
 
@@ -22,9 +22,9 @@ Want to add your own? Fork this site on GitHub, add your framework to "data.js" 
 
 ### **1. submit pull request**
 
-  * Add your library to "`data.js`", pick a **random** point in the file (this helps with merging many contributions) and enter the required attributes: `'name'`, `'repo'`, `'author'`, `'tags'`, `'description'`, all can't be null.
+  * Add your library to "`data.js`", at the end of the file (this helps with merging many contributions) and enter the required attributes: `'name'`, `'repo'`, `'author'`, `'tags'`, `'description'`, all can't be empty(null or '').
   * The a `'repo'` should point to wherever you host your README or docs and where code is downloaded code-download.
-  * The `'tags'` attribute must be a `array` of the project keywords.
+  * The `'tags'` attribute must be a `array` of the project keywords. max array length is 4. max string size is 30.
   * Running `npm run build`, and open `index.html` with your browser, should work and not return an error. To run build, you'll need node installed, and `npm install` first.
   * Then submit a `pull request`.
 

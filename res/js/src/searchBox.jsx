@@ -21,7 +21,8 @@ const SearchBox = React.createClass({
   },
   getProjects: function() {
     // random sort
-    let projects = iReactProjects.sort(function () { return 0.5 - Math.random() });
+    // let projects = iReactProjects.sort(function () { return 0.5 - Math.random() });
+    let projects = iReactProjects;
     let getProjectAuthor = this.getProjectAuthor;
     projects.map(function(project) {
       project['tagtext'] = project.tags.join(' ').toLowerCase();

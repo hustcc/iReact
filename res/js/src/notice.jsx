@@ -13,7 +13,7 @@ const Notice = React.createClass({
             <span>-</span>
             <span>Components</span>
             <span> and</span>
-            <span>React</span>
+            <span> React</span>
             <span>-</span>
             <span>Libraries</span>
             <span>!</span>
