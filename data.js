@@ -1536,5 +1536,16 @@ var iReactProjects =
       'mouse'
     ],
     'description': 'Open source library for using D3 in React.'
+  },
+  {
+    'name': 'react-select',
+    'repo': 'https://github.com/JedWatson/react-select',
+    'author': 'JedWatson',
+    'tags': [
+      'react', 
+      'select', 
+      'autocomplete'
+    ],
+    'description': 'A Select control built with and for React JS'
   }
 ];
