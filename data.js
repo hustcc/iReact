@@ -1,5 +1,16 @@
 var iReactProjects = 
 [
+	{
+    'name': 'timeago-react',
+    'repo': 'https://github.com/hustcc/timeago-react',
+    'author': 'hustcc',
+    'tags': [
+      'react',
+      'timeago',
+      'datetime'
+    ],
+    'description': 'Simple and efficient react component to format date with `*** time ago` statement.'
+  },
   {
     'name': 'echarts-for-react',
     'repo': 'https://github.com/hustcc/echarts-for-react',
