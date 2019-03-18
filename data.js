@@ -1558,5 +1558,17 @@ var iReactProjects =
       'autocomplete'
     ],
     'description': 'A Select control built with and for React JS'
+  },
+  {
+    'name': 'react-border-wrapper',
+    'repo': 'https://github.com/Metroxe/react-border-wrapper',
+    'author': 'Metroxe',
+    'tags': [
+      'react', 
+      'border', 
+      'wrapper',
+      'div',
+    ],
+    'description': 'A wrapper for placing elements along div borders.'
   }
 ];
